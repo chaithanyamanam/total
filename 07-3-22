@@ -4,4 +4,6 @@ insert into student values(1,'chaithu','mpcs',90,95,99);
 insert into student values(2,'jaya','mpcs',95,94,98);
 select * from student;
 select sum(maths+phy+computer) from student where sno=1 ;
+select sum(maths) from student;
+select avg(maths) from student;
 
